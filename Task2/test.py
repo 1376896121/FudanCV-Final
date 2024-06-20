@@ -49,7 +49,9 @@ if __name__ == "__main__":
     test_loader = DataLoader(testset, batch_size=args.batch_size, shuffle=False, num_workers=4)
 
     model = timm.create_model('vit_base_patch16_224.augreg_in21k', pretrained=False)
-    checkpoints = torch.load(args)
+    checkpoints = torch.load(args.model_path)
     model.load_state_dict(checkpoints["model_state_dict"])
+    model = model.to('cuda')
 
     test_loss, test_acc = test(model, test_loader)
+    print(test_loss, test_acc)
