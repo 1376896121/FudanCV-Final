@@ -9,7 +9,9 @@ The network is Resnet-18, the dataset is CIFAR-100.
 The best model under LCP achieve an accuracy of 55.4\%.
 
 ##### To Run: 
-`bash run_all.sh`
+````
+bash run_all.sh
+````
 
 ### Task2 CNN与ViT对比
 ### Training Vision Transformer and CNN in CIFAR-100 to compare their performance
@@ -28,7 +30,9 @@ Resnet-152 achieve an accuracy of 69.7\%, ViT achieve an accuracy of 82.63\%.
 
 
 ##### To Run: 
-`python Resnet152.py`
+````
+python Resnet152.py
+````
 
 and
 
