@@ -1,3 +1,7 @@
+# Fudan university Computer Vision Final Assignment
+This repository include first and second tasks.
+For more details, check our report pdf.
+
 ### Task1 自监督学习
 ### Self Supervised Learning
 We Use SimCLR as SSL method, then test the performence under Linear Classification Protocol.
