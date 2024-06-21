@@ -7,6 +7,7 @@ The network is Resnet-18, the dataset is CIFAR-100.
 ##### Result:
 
 The best model under LCP achieve an accuracy of 55.4\%.
+The best weight can be downloaded at \url{https://pan.baidu.com/s/1ADv3W2GVLBNTJZ6Ip4DyRg?pwd=cquf}
 
 ##### To Run: 
 ````
