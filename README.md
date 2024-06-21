@@ -2,7 +2,11 @@
 ### Self Supervised Learning
 We Use SimCLR as SSL method, then test the performence under Linear Classification Protocol.
 
-The network is Resnet-18, the dataset we use for SSL and LCP is CIFAR-100. However, the dataset can be chosen from CIFAR-10, CIFAR-100 and STL-10, and other resnet is supported by modifying `run_all.sh`.
+The network is Resnet-18, the dataset we use for SSL and LCP is CIFAR-100. 
+
+However, the dataset can be chosen from CIFAR-10, CIFAR-100 and STL-10, and other resnet structures are supported. 
+
+You can change the setting by modifying `run_all.sh`.
 
 ##### Result:
 
