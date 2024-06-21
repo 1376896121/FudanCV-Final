@@ -7,7 +7,8 @@ The network is Resnet-18, the dataset is CIFAR-100.
 ##### Result:
 
 The best model under LCP achieve an accuracy of 55.4\%.
-The best weight can be downloaded at \url{https://pan.baidu.com/s/1ADv3W2GVLBNTJZ6Ip4DyRg?pwd=cquf}
+
+The best weight can be downloaded at https://pan.baidu.com/s/1ADv3W2GVLBNTJZ6Ip4DyRg?pwd=cquf
 
 ##### To Run: 
 ````
@@ -29,6 +30,9 @@ patch embedding + 11 transformer block + 1  linear layer(output the designated c
 
 Resnet-152 achieve an accuracy of 69.7\%, ViT achieve an accuracy of 82.63\%.
 
+Resnet-152 best weight can be downloaded at https://pan.baidu.com/s/1glSvK2vohn4KjIbH8eHkDw?pwd=ssoi 
+
+ViT best weight can be downloaded at https://pan.baidu.com/s/13BUC16UUIGlaXj9wF9XrrQ?pwd=m3jn
 
 ##### To Run: 
 ````
